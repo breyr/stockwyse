@@ -1,0 +1,35 @@
+{% extends "base.html" %} {% block title %}- Login{% endblock %} {% block nav %}
+<a href="{{url_for('register')}}" class="btn btn-outline-light ms-auto me-3"
+  >Sign Up</a
+>
+{% endblock %} {% block body %}
+<div class="flex-mid">
+  <h1>Welcome to stock<span class="fw-lighter">WYSE</span></h1>
+  <h5 class="text-light fw-lighter mb-3">
+    Your one-stop shop for stocks and news!
+  </h5>
+  <form method="POST" action="/">
+    <div class="mb-2 mt-3">
+      <input
+        type="text"
+        class="form-control"
+        name="email"
+        placeholder="Email"
+      />
+    </div>
+    <div class="mb-2 mt-3">
+      <input
+        type="password"
+        class="form-control"
+        name="password"
+        placeholder="Password"
+      />
+    </div>
+    <button type="submit" class="btn btn-green mt-2">log in</button>
+  </form>
+  <a href="{{url_for('register')}}" class="mt-5"
+    >Don't have an account? Sign up</a
+  >
+  <a href="{{url_for('passwordreset')}}">Forgot Password</a>
+</div>
+{% endblock %}
