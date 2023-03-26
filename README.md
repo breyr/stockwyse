@@ -1,6 +1,6 @@
 # stockwyse
 
-stockWYSE is a simple Flask application that utilizes [Firebase](https://firebase.google.com/) and [Finnhub.io](https://finnhub.io/)
+stockWYSE is a simple Flask application that utilizes, [Bootstrap5](https://getbootstrap.com/), [Firebase](https://firebase.google.com/) and [Finnhub.io](https://finnhub.io/)
 
 It is hosted on GCP through Cloud Run in a Docker container.
 
