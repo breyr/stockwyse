@@ -5,5 +5,6 @@ stockWYSE is a simple Flask application that utilizes, [Bootstrap5](https://getb
 It is hosted on GCP through Cloud Run in a Docker container.
 
 Check it out [here](https://stockwyse-3dtk2wionq-uc.a.run.app/)!
-- temporarily removed from GCP for cost reasons
+(_temporarily removed from GCP for cost reasons_)
+
 ![Home Page](home.png)
